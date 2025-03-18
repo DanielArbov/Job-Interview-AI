@@ -1,0 +1,14 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    background-image: linear-gradient(#828ccb, #227b68);
+
+}
+
+a {
+    color: blue;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

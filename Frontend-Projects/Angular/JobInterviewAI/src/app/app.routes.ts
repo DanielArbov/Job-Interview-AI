@@ -1,0 +1,15 @@
+import { Routes } from '@angular/router';
+import { HomeComponent } from './components/page-area/home/home.component';
+import { AboutComponent } from './components/page-area/about/about.component';
+import { AiComponent } from './components/ai-area/ai/ai.component';
+import { Page404Component } from './components/layout-area/page404/page404.component';
+
+export const routes: Routes = [
+    { path: "", redirectTo: "/home", pathMatch: "full" },
+    { path: "home", component: HomeComponent },
+    { path: "about", component: AboutComponent },
+    { path: "ai", component: AiComponent },
+    { path: "**", component: Page404Component }
+
+
+];

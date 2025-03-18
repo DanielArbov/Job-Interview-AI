@@ -1,0 +1,17 @@
+mat-form-field {
+    width: 100%;
+}
+
+form {
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+
+
+option {
+    background-color: rgb(131, 152, 214);
+}
