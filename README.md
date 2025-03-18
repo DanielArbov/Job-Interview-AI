@@ -4,7 +4,7 @@ This is an Angular-based project that generates job interview questions and answ
 
 ## Project Structure
 
-### Components:
+###the main Components:
 1. **AiComponent**: 
    - Handles the interaction with the GPT service. It sends user input (details like subject, difficulty, and question count) to the backend and displays the generated interview questions and answers.
    - Contains the sections for both input and output components.
